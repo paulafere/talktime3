@@ -1,0 +1,101 @@
+<!--index-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talktime</title>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body   >
+    <header class="header__grad" >
+        <div class="header__grid header__skew " >
+            <div class="header__icono"><span class="iconify" data-width="48px" data-height="48px" data-icon="bi:bookmark-fill" data-inline="false"></span></div>
+            
+            <div class="header__titulo"><h1>Talktime La Plata</h1></div>
+        
+        </div >
+        <nav class="nav__grid" >
+
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <a href="../index.html"; class="nav__link ">Home</a></li>
+                <a href="aboutus2.html"; class="nav__link ">About us</a></li>
+                <a href="courses2.html"; class="nav__link ">Courses</a></li>
+        </nav>
+    </header>
+    <main   class="enrolmain">
+        
+        <h2><span class="iconify" data-icon="bi:pen" data-inline="false"></span>Time to Enrol!</h2>
+        
+            <div>
+            
+                <form  method="GET">
+                    <fieldset> <legend> <b>Personal information</b> </legend>
+                        <label for="name">Name:</label>	
+                        <input type="text" name="name" id="name" required/> 
+                        <label for="lname">Last name:</label>	
+                        <input type="text" name="lname" id="lname" required/> 
+
+                        <label for="level">Level of English:</label>
+                        <select name="level" id="level" required>
+                            <option value="null" disabled selected>Choose your level of English</option>
+                            <option value="int">Intermediate</option>
+                            <option value="upint">Upper-intermediate</option>
+                            <option value="adv">Advanced</option>
+                        </select>
+                        <p>Payment</p>
+                        <label >
+                            Credit card  <input type="radio"  name="pago" id="credit" required>
+                        </label> 
+                        <label >
+                            Cash  <input type="radio" name="pago" id="cash" required> 
+                        </label>   
+                    </fieldset>
+                    <div class="form__boton">
+                        <input type="reset" value="Reset"/>
+                        <input type="submit" value="Send "/>
+                    </div>
+                
+                </form>
+            </div>
+
+            <div>
+                <fieldset> <legend>Instructions</legend>
+                    <ol>
+                        <li>Fill in the form</li>
+                        <li>You will receive a confirmation E mail</li>
+                        <li>You will be able to access the virtual platform</li>
+                    </ol>
+                </fieldset>
+            </div>
+                    
+
+    </main>
+    <footer class="footer__grid">
+        <div class="redes">
+            <h3>Follow us!</h3>
+            <a href="https://es-la.facebook.com/talktimelp/"><span class="iconify" data-width="28px" data-height="28px" data-icon="ant-design:facebook-filled" data-inline="false"></span></a>
+            <a href="#"><span class="iconify" data-width="28px" data-height="28px"data-icon="akar-icons:instagram-fill" data-inline="false"></span></a>
+            <a href="#"><span class="iconify" data-width="28px" data-height="28px"data-icon="foundation:social-youtube" data-inline="false"></span></a>
+        </div>
+        <div>
+            <form >
+                <label for="newsletter">Sign up to our newsletter!</label>
+                <input type="email" id="newsletter" value="@gmail.com"/>
+                <input type="submit"  value="Submit"/>
+            
+            </form>
+        </div>
+    </footer>
+
+</body>
+</html>

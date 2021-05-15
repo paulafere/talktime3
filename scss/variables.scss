@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;1,200;1,600&family=Oswald:wght@300;400;500&display=swap');
+//colores
+$color:azul;
+
+@if ($color==rojo){
+    :root{
+    --color-bg:rgb(90, 5, 5) ;
+        --color-primary:rgb(158, 57, 57);
+        --color-secondary:rgb(240, 25, 25);}
+    
+}
+@else if ($color==azul){ 
+    :root{
+        --color-bg:#1e0474 ;
+        --color-primary: #1d9b9b;
+        --color-secondary:#63e4eb;
+}}
+//fuentes
+$fuenteprincipal: 'KoHo', sans-serif;
+$fuentesecundaria: 'Oswald', sans-serif;
+
+
+
+
+
