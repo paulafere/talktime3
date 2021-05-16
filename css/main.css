@@ -34,7 +34,10 @@ article {
   text-align: center; }
 
 form {
-  padding: 30px; }
+  padding: 30px;
+  background-color: var(--color-primary);
+  opacity: 70%;
+  text-decoration: solid; }
 
 h2 {
   text-align: center; }
@@ -47,15 +50,13 @@ nav {
   padding: 20px; }
 
 .nav__link:hover {
-  text-decoration: underline;
-   }
+  text-decoration: underline; }
 
 .nav__linkactivo {
-  text-decoration: underline;
-  }
+  text-decoration: underline; }
 
 .header__grad {
-  background-image: linear-gradient(to bottom, --color-bg, --color-primary); }
+  background-image: linear-gradient(to bottom right, --color-bg, --color-primary); }
 
 .staff__grad {
   background-image: radial-gradient(--color-primary, --color-bg); }
@@ -190,7 +191,11 @@ img {
 .enrolmain {
   margin: 0px;
   padding: 60px;
-  background-color: var(--color-secondary); }
+  background-image: url(../media/fondoenrol.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
 .form__boton input {
   background-color: var(--color-bg);
